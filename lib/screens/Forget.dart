@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:icons_plus/icons_plus.dart';
-import 'package:whatsapp/l10n/app_en.dart';
-import 'package:whatsapp/widgets/Custom_Scaffold.dart';
-import 'package:whatsapp/widgets/theme.dart';
-import 'package:whatsapp/widgets/utils.dart';
+import 'package:ChatHUb/l10n/app_en.dart';
+import 'package:ChatHUb/widgets/Custom_Scaffold.dart';
+import 'package:ChatHUb/widgets/theme.dart';
+import 'package:ChatHUb/widgets/utils.dart';
 import 'Signup.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 

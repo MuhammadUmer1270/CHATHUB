@@ -5,10 +5,10 @@ import 'package:flutter/services.dart';
 
 import 'package:icons_plus/icons_plus.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:whatsapp/screens/Login.dart';
-import 'package:whatsapp/widgets/Custom_Scaffold.dart';
-import 'package:whatsapp/widgets/theme.dart';
-import 'package:whatsapp/widgets/utils.dart';
+import 'package:ChatHUb/screens/Login.dart';
+import 'package:ChatHUb/widgets/Custom_Scaffold.dart';
+import 'package:ChatHUb/widgets/theme.dart';
+import 'package:ChatHUb/widgets/utils.dart';
 
 import '../l10n/app_en.dart';
 
@@ -264,62 +264,12 @@ class _SignupState extends State<Signup> {
                         const SizedBox(
                           height: 25.0,
                         ),
-                        Row(
-                          children: [
-                            Checkbox(
-                              value: type,
-                              onChanged: (bool? value) {
-                                setState(() {
-                                  type = value!;
-                                });
-                              },
-                              activeColor: lightColorScheme.primary,
-                            ),
-                            Text(
-                             sg_iama,
-                              style: TextStyle(
-                                color: Colors.black45,
-                              ),
-                            ),
-                            Text(
-                             sg_expspec,
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                color: lightColorScheme.primary,
-                              ),
-                            ),
-                          ],
-                        ),
+                       
                         const SizedBox(
                           height: 25.0,
                         ),
                         // i agree to the processing
-                        Row(
-                          children: [
-                            Checkbox(
-                              value: agreePersonalData,
-                              onChanged: (bool? value) {
-                                setState(() {
-                                  agreePersonalData = value!;
-                                });
-                              },
-                              activeColor: lightColorScheme.primary,
-                            ),
-                            Text(
-                             sg_agreeprocessdata,
-                              style: TextStyle(
-                                color: Colors.black45,
-                              ),
-                            ),
-                            Text(
-                             sg_personaldata,
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                color: lightColorScheme.primary,
-                              ),
-                            ),
-                          ],
-                        ),
+                        
 
                         const SizedBox(
                           height: 25.0,

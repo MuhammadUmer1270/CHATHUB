@@ -1,8 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp/colors.dart';
-import 'package:whatsapp/repository/controler.dart';
+import 'package:ChatHUb/colors.dart';
+import 'package:ChatHUb/repository/controler.dart';
 
 class OTPScreen extends ConsumerWidget {
   static String id = "/OTP_Screen";

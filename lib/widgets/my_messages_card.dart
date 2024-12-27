@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:giphy_picker/giphy_picker.dart';
-import 'package:whatsapp/colors.dart';
-import 'package:whatsapp/features/common/enums/msg_enum.dart';
+import 'package:ChatHUb/colors.dart';
+import 'package:ChatHUb/features/common/enums/msg_enum.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
 import 'videplayeritem.dart';

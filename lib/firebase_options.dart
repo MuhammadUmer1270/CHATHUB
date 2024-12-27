@@ -69,7 +69,7 @@ class DefaultFirebaseOptions {
     storageBucket: 'whatsapp-50f9f.appspot.com',
     androidClientId: '567083599771-gjgk0bs3rh9rqrmnpk14pqicmq7po313.apps.googleusercontent.com',
     iosClientId: '567083599771-vkh4vu10kctr26l3ql8mvmklmg4db4pq.apps.googleusercontent.com',
-    iosBundleId: 'com.example.whatsapp',
+    iosBundleId: 'com.example.ChatHUb',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -80,6 +80,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'whatsapp-50f9f.appspot.com',
     androidClientId: '567083599771-gjgk0bs3rh9rqrmnpk14pqicmq7po313.apps.googleusercontent.com',
     iosClientId: '567083599771-p2qj0i48n99jn8vgqs00utms68jv7hug.apps.googleusercontent.com',
-    iosBundleId: 'com.example.whatsapp.RunnerTests',
+    iosBundleId: 'com.example.ChatHUb.RunnerTests',
   );
 }

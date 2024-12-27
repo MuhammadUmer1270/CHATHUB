@@ -1,10 +1,10 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp/colors.dart';
-import 'package:whatsapp/features/common/widget/custombutton.dart';
+import 'package:ChatHUb/colors.dart';
+import 'package:ChatHUb/features/common/widget/custombutton.dart';
 import 'package:country_picker/country_picker.dart';
-import 'package:whatsapp/repository/controler.dart';
+import 'package:ChatHUb/repository/controler.dart';
 
 class Loginscreen extends ConsumerStatefulWidget {
   const Loginscreen({super.key});
@@ -71,7 +71,7 @@ class _LoginscreenState extends ConsumerState<Loginscreen> {
                 SizedBox(
                   height: size.height * 0.05,
                 ),
-                const Text("Whatsapp will need to verify your phone number"),
+                const Text("ChatHUb will need to verify your phone number"),
                 SizedBox(
                   height: size.height * 0.0,
                 ),

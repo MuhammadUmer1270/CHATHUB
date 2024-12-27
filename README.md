@@ -1,4 +1,4 @@
-# whatsapp
+# ChatHUb
 
 A new Flutter project.
 

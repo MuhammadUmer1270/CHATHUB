@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp/colors.dart';
-import 'package:whatsapp/info.dart';
+import 'package:ChatHUb/colors.dart';
+import 'package:ChatHUb/info.dart';
 
 // ignore: camel_case_types
 class webprofile extends StatelessWidget {

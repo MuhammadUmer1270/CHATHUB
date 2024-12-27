@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp/colors.dart';
-import 'package:whatsapp/features/chat/widget/chatlist.dart';
-import 'package:whatsapp/features/chat/widget/contactslist.dart';
-import 'package:whatsapp/widgets/web_profile_bar.dart';
-import 'package:whatsapp/widgets/webchat_appbar.dart';
-import 'package:whatsapp/widgets/websearch_bar.dart';
+import 'package:ChatHUb/colors.dart';
+import 'package:ChatHUb/features/chat/widget/chatlist.dart';
+import 'package:ChatHUb/features/chat/widget/contactslist.dart';
+import 'package:ChatHUb/widgets/web_profile_bar.dart';
+import 'package:ChatHUb/widgets/webchat_appbar.dart';
+import 'package:ChatHUb/widgets/websearch_bar.dart';
 
 class weblayout extends StatelessWidget {
   const weblayout({Key? key});

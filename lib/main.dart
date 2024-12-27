@@ -1,24 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp/colors.dart';
-import 'package:whatsapp/features/common/widget/utilis/loader.dart';
-// import 'package:whatsapp/features/common/widget/utilis/loader.dart';
-// import 'package:whatsapp/features/common/widget/utilis/loader.dart';
-import 'package:whatsapp/features/landing_screen.dart';
-import 'package:whatsapp/repository/controler.dart';
-import 'package:whatsapp/screens/Forget.dart';
-import 'package:whatsapp/screens/Login.dart';
-// import 'package:whatsapp/repository/controler.dart';
-import 'package:whatsapp/screens/OTP_Screen.dart';
-import 'package:whatsapp/screens/Signup.dart';
-import 'package:whatsapp/screens/errorscreen.dart';
-// import 'package:whatsapp/screens/errorscreen.dart';
-import 'package:whatsapp/screens/login_Screen.dart';
-import 'package:whatsapp/features/chat/mobliechat_screen.dart';
+import 'package:ChatHUb/colors.dart';
+import 'package:ChatHUb/features/common/widget/utilis/loader.dart';
+// import 'package:ChatHUb/features/common/widget/utilis/loader.dart';
+// import 'package:ChatHUb/features/common/widget/utilis/loader.dart';
+import 'package:ChatHUb/features/landing_screen.dart';
+import 'package:ChatHUb/repository/controler.dart';
+import 'package:ChatHUb/screens/Forget.dart';
+import 'package:ChatHUb/screens/Login.dart';
+// import 'package:ChatHUb/repository/controler.dart';
+import 'package:ChatHUb/screens/OTP_Screen.dart';
+import 'package:ChatHUb/screens/Signup.dart';
+import 'package:ChatHUb/screens/errorscreen.dart';
+// import 'package:ChatHUb/screens/errorscreen.dart';
+import 'package:ChatHUb/screens/login_Screen.dart';
+import 'package:ChatHUb/features/chat/mobliechat_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:whatsapp/screens/moblielayout.dart';
-import 'package:whatsapp/screens/select_contact_screen.dart';
-import 'package:whatsapp/screens/user_info_screen.dart';
+import 'package:ChatHUb/screens/moblielayout.dart';
+import 'package:ChatHUb/screens/select_contact_screen.dart';
+import 'package:ChatHUb/screens/user_info_screen.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -38,7 +38,7 @@ class MyApp extends ConsumerWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
           scaffoldBackgroundColor: backgroundColor, primaryColor: appBarColor),
-      title: 'Whatsapp',
+      title: 'ChatHUb',
       home: ref.watch(userdatauthprovider).when(
             data: (user) {
               if (user == null) {
@@ -57,22 +57,22 @@ class MyApp extends ConsumerWidget {
             },
             loading: () => const loader(),
           ),
-      // routes: {
-      //   Selectcontactlist.id: (context) => Selectcontactlist(),
-      //   LandingScreen.id: (context) => const LandingScreen(),
-      //   MoblieChatScreen.id: (context) => const MoblieChatScreen(),
-      //   Loginscreen.id: (context) => const Loginscreen(),
-      //   OTPScreen.id: (context) => OTPScreen(),
-      //   Userinfo.id: (context) => const Userinfo(),
-      //   ErrorScreen.id: (context) => ErrorScreen(
-      //       errorMessage: "errorMessage",
-      //       onRetry: () {
-      //         Navigator.pushNamed(context, LandingScreen.id);
-      //       }),
-      //       Login.id:(context)=>Login(),
-      //       Signup.id:(context)=>Signup(),
-      //       Forget.id:(context)=>Forget(),
-      // },
+      routes: {
+        Selectcontactlist.id: (context) => Selectcontactlist(),
+        LandingScreen.id: (context) => const LandingScreen(),
+        MoblieChatScreen.id: (context) => const MoblieChatScreen(),
+        Loginscreen.id: (context) => const Loginscreen(),
+        OTPScreen.id: (context) => OTPScreen(),
+        Userinfo.id: (context) => const Userinfo(),
+        ErrorScreen.id: (context) => ErrorScreen(
+            errorMessage: "errorMessage",
+            onRetry: () {
+              Navigator.pushNamed(context, LandingScreen.id);
+            }),
+            Login.id:(context)=>Login(),
+            Signup.id:(context)=>Signup(),
+            Forget.id:(context)=>Forget(),
+      },
     );
   }
 }

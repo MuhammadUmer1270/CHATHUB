@@ -1,6 +1,6 @@
 import 'package:cached_video_player/cached_video_player.dart';
 import 'package:flutter/material.dart';
-import 'package:whatsapp/widgets/my_messages_card.dart';
+import 'package:ChatHUb/widgets/my_messages_card.dart';
 
 class videplayer extends StatefulWidget {
   const videplayer({super.key, required this.videourl});

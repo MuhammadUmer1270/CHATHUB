@@ -45,7 +45,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:567083599771:android:bc5a914bf7f7979ed9433e",
         "android_client_info": {
-          "package_name": "com.example.whatsapp"
+          "package_name": "com.example.ChatHUb"
         }
       },
       "oauth_client": [
@@ -53,7 +53,7 @@
           "client_id": "567083599771-gjgk0bs3rh9rqrmnpk14pqicmq7po313.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.whatsapp",
+            "package_name": "com.example.ChatHUb",
             "certificate_hash": "e46d2dcd99b74af8d186ce3fb932dfd246f96acc"
           }
         },

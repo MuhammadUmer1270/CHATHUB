@@ -2,9 +2,11 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp/features/common/widget/utilis/fliepicker.dart';
-import 'package:whatsapp/info.dart';
-import 'package:whatsapp/repository/controler.dart';
+import 'package:ChatHUb/features/chat/mobliechat_screen.dart';
+import 'package:ChatHUb/features/common/widget/utilis/fliepicker.dart';
+import 'package:ChatHUb/info.dart';
+import 'package:ChatHUb/repository/controler.dart';
+import 'package:ChatHUb/screens/moblielayout.dart';
 
 class Userinfo extends ConsumerStatefulWidget {
   static String id = "/user_info_screen";
@@ -35,6 +37,7 @@ class _UserinfoState extends ConsumerState<Userinfo> {
         await ref
             .read(Authcontrollerprovder)
             .storedatatofirebase(name, context, image);
+            Navigator.pushNamed(context, MoblieChatScreen.id);
       }
     }
 

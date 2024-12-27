@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp/colors.dart';
-import 'package:whatsapp/repository/auth_repository.dart';
-import 'package:whatsapp/screens/select_contact_screen.dart';
-import 'package:whatsapp/features/chat/widget/contactslist.dart';
+import 'package:ChatHUb/colors.dart';
+import 'package:ChatHUb/repository/auth_repository.dart';
+import 'package:ChatHUb/screens/select_contact_screen.dart';
+import 'package:ChatHUb/features/chat/widget/contactslist.dart';
 
 // ignore: camel_case_types
 class moblielayout extends ConsumerStatefulWidget {
@@ -47,7 +47,7 @@ class _moblielayoutState extends ConsumerState<moblielayout>
         child: Scaffold(
           appBar: AppBar(
             backgroundColor: appBarColor,
-            title: const Text("Whatsapp"),
+            title: const Text("CHAT HUB"),
             actions: [
               IconButton(
                 onPressed: () {},
